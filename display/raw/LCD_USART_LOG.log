@@ -1,0 +1,28 @@
+Terminal log file
+Date: 22.05.2019 - 20:23:53
+-----------------------------------------------
+L3 PS:0 VL:0 MT:0 FT:0 AL:0 ST:255 WF:0 FN: PG:0 TM:0 LA:0 LC:0
+L21 P0 S0
+L3 PS:0 VL:0 MT:0 FT:0 AL:0 ST:255 WF:0 FN: PG:0 TM:0 LA:0 LC:0
+L1 X0.000 Y0.000 Z0.000 F0
+L2 B:0.0 /0.0 /0 T0:0.0 /0.0 /0 T1:0.0 /0.0 /0 T2:0.0 /0.0 /0 SD:1 F0:0 F2:50 R:100 FR:0
+L3 PS:0 VL:0 MT:0 FT:0 AL:0 ST:255 WF:0 FN: PG:0 TM:0 LA:0 LC:0
+L7 begin file list:0
+L7 end file list:0
+L9 DN:GEEETECH-A30;DM:A30;SN:181206A3001678C;FV:V1.xx.59;PV:330.00 x 342.00 x 420.00;HV:v3.5;
+L2 B:0.0 /0.0 /0 T0:0.0 /0.0 /0 T1:0.0 /0.0 /0 T2:0.0 /0.0 /0 SD:1 F0:0 F2:50 R:100 FR:0
+L18 P26 S8
+L2 B:-19.0 /0.0 /0 T0:-19.0 /0.0 /0 T1:-19.0 /0.0 /0 T2:-19.0 /0.0 /0 SD:1 F0:0 F2:50 R:100 FR:0
+L21 P0 S0
+L3 PS:0 VL:0 MT:0 FT:0 AL:0 ST:255 WF:0 FN: PG:0 TM:0 LA:0 LC:0
+L21 P0 S0
+L21 P0 S0
+L3 PS:0 VL:0 MT:0 FT:0 AL:0 ST:255 WF:0 FN: PG:0 TM:0 LA:0 LC:0
+L21 P0 S0
+L21 P0 S0
+L3 PS:0 VL:0 MT:0 FT:0 AL:0 ST:255 WF:0 FN: PG:0 TM:0 LA:0 LC:0
+L21 P0 S0
+
+-----------------------------------------------
+Date: 22.05.2019 - 20:24:12
+End log file

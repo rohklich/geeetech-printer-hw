@@ -1,0 +1,45 @@
+*NOTE after filling list by sending to LCD
+L7 begin file list:0
+L7 P0 dummy_etry
+L7 end file list:0
+
+
+Terminal log file
+Date: 23.05.2019 - 02:19:10
+-----------------------------------------------
+*NOTE-2019.05.23@02:19:18 - start sd print
+M23 dummy_entry
+M24
+M105
+M27
+*NOTE-2019.05.23@02:19:35 - pause
+M25
+M105
+M27
+*NOTE-2019.05.23@02:19:48 - resume
+M24
+M105
+M27
+*NOTE-2019.05.23@02:20:00 - stop
+M2103
+M105
+M27
+M105
+M20 LCD
+*NOTE-2019.05.23@02:20:20 - start sd print
+M23 dummy_entry
+M24
+M105
+M27
+*NOTE-2019.05.23@02:20:32 - pause
+M25
+M105
+M27
+*NOTE-2019.05.23@02:20:44 - stop
+M2103
+M105
+M27
+
+-----------------------------------------------
+Date: 23.05.2019 - 02:22:03
+End log file

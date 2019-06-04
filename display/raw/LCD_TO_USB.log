@@ -1,0 +1,245 @@
+Terminal log file
+Date: 23.05.2019 - 01:22:04
+-----------------------------------------------
+*NOTE-2019.05.23@01:22:10 - startup
+<0>log A30 LCD OK
+*NOTE-2019.05.23@01:22:28 - reset
+<0>log A30 LCD OK
+*NOTE-2019.05.23@01:22:56 - status page
+<0>M105
+M27
+*NOTE-2019.05.23@01:23:27 - tempset page
+*NOTE-2019.05.23@01:23:50 - en hotend
+M104 S200.0
+*NOTE-2019.05.23@01:24:04 - dis hotend
+M104 S0.0
+*NOTE-2019.05.23@01:24:23 - en bed
+M140 S50.0
+*NOTE-2019.05.23@01:24:38 - dis bed
+M140 S0.0
+*NOTE-2019.05.23@01:24:57 - en fan
+M106 P0 S255
+*NOTE-2019.05.23@01:25:16 - change fan
+M106 P0 S247 
+M106 P0 S232 
+M106 P0 S209 
+*NOTE-2019.05.23@01:25:32 - dis fan
+M106 P0 S0
+*NOTE-2019.05.23@01:25:58 - change speed override
+M220 S3
+M220 S6
+M220 S12
+M220 S21
+M220 S33
+M220 S30
+M220 S24
+M220 S15
+M220 S10
+*NOTE-2019.05.23@01:26:41 - back to status page
+M105
+M27
+*NOTE-2019.05.23@01:27:05 - start/list SD
+M105
+M20 LCD
+*NOTE-2019.05.23@01:27:37 - back
+M105
+M27
+*NOTE-2019.05.23@01:28:14 - main menu
+*NOTE-2019.05.23@01:28:59 - fan menu
+M105
+*NOTE-2019.05.23@01:29:22 - en controller fan
+M105
+M106 P2 S255
+*NOTE-2019.05.23@01:29:47 - en he fan
+M106 P0 S643
+*NOTE-2019.05.23@01:30:14 - change fans
+M105
+M106 P0 S630
+M106 P0 S617
+M106 P0 S604
+M106 P0 S592
+M106 P0 S0
+M106 P2 S242
+M106 P2 S230
+M106 P2 S217
+M106 P2 S0
+*NOTE-2019.05.23@01:31:34 - filament page
+M2105 S2
+M2105 S4
+*NOTE-2019.05.23@01:32:13 - filament page_extrude
+M2105 S2
+*NOTE-2019.05.23@01:32:26 - filament page_stop_extrude
+M2105 S4
+*NOTE-2019.05.23@01:32:41 - filament page_retract
+M2105 S3
+*NOTE-2019.05.23@01:32:54 - filament page_stop_retract
+M2105 S4
+*NOTE-2019.05.23@01:33:15 - filament page_en_hotend
+M104 S200.0
+M104 S10.0
+*NOTE-2019.05.23@01:33:46 - filament page_disable_hotend
+M104 S0
+*NOTE-2019.05.23@01:34:30 - move page
+*NOTE-2019.05.23@01:34:55 - x+
+G28
+G91
+G1 F6000 X30.00
+G90
+*NOTE-2019.05.23@01:35:15 - x-
+G91
+G1 F6000 X-30.00
+G90
+*NOTE-2019.05.23@01:35:39 - y+
+G91
+G1 F6000 Y30.00
+G90
+G91
+G1 F6000 Y-30.00
+G90
+*NOTE-2019.05.23@01:36:01 - z+
+G91
+G1 F500 Z30.00
+G90
+*NOTE-2019.05.23@01:36:09 - z-
+G91
+G1 F500 Z-30.00
+G90
+M105
+M20 LCD
+*NOTE-2019.05.23@01:36:57 - printing page
+M105
+M20 LCD
+M105
+M20 LCD
+*NOTE-2019.05.23@01:38:01 - home page
+*NOTE-2019.05.23@01:38:46 - settings_filament det page
+*NOTE-2019.05.23@01:39:07 - fil det dis
+M2106 P0 S0
+*NOTE-2019.05.23@01:39:23 - fil det en
+M2106 P0 S1
+*NOTE-2019.05.23@01:40:37 - level page
+*NOTE-2019.05.23@01:40:56 - level page autolevel
+M2120 P5
+*NOTE-2019.05.23@01:41:39 - 3dtouch->cas
+M2120 P9 S1
+*NOTE-2019.05.23@01:42:04 - cas->3dtouch
+M2120 P9 S0
+*NOTE-2019.05.23@01:42:33 - change zoffs
+*NOTE-2019.05.23@01:44:12 - manual level page
+M2107 S0
+*NOTE-2019.05.23@01:44:55 - pos 1
+M2107 S1
+*NOTE-2019.05.23@01:45:09 - pos 2
+M2107 S2
+*NOTE-2019.05.23@01:45:20 - pos 3
+M2107 S3
+*NOTE-2019.05.23@01:45:30 - pos 4
+M2107 S4
+*NOTE-2019.05.23@01:45:43 - pos 5
+M2107 S5
+*NOTE-2019.05.23@01:46:06 - z+/-
+M2107 S6
+M2107 S7
+*NOTE-2019.05.23@01:46:31 - z+/-0,5
+M2107 S6
+M2107 S7
+*NOTE-2019.05.23@01:46:51 - z+/-0,05
+M2107 S10
+M2107 S9
+*NOTE-2019.05.23@01:47:10 - ok
+M2107 S8
+*NOTE-2019.05.23@01:47:26 - back
+G28
+L101
+*NOTE-2019.05.23@01:48:04 - manual level page
+M2107 S0
+*NOTE-2019.05.23@01:48:18 - back
+G28
+L101
+*NOTE-2019.05.23@01:49:09 - move menu
+*NOTE-2019.05.23@01:49:25 - enable
+M18
+*NOTE-2019.05.23@01:49:37 - disable
+M17
+G28
+*NOTE-2019.05.23@01:50:29 - disable
+M18
+*NOTE-2019.05.23@01:50:47 - enable
+M17
+G28
+*NOTE-2019.05.23@01:51:02 - change incr
+L1 S1
+*NOTE-2019.05.23@01:51:17 - change incr
+L1 S2
+*NOTE-2019.05.23@01:51:26 - change incr
+L1 S3
+*NOTE-2019.05.23@01:51:34 - change incr
+L1 S4
+*NOTE-2019.05.23@01:51:41 - change incr
+L1 S0
+*NOTE-2019.05.23@01:51:54 - change incr
+L1 S1
+*NOTE-2019.05.23@01:52:12 - z+/-
+G91
+G1 F500 Z10.00
+G90
+G91
+G1 F500 Z-10.00
+G90
+*NOTE-2019.05.23@01:52:42 - homing page
+*NOTE-2019.05.23@01:52:57 - home x
+G28 X0
+*NOTE-2019.05.23@01:53:07 - home y
+G28 Y0
+*NOTE-2019.05.23@01:53:17 - home z
+G28 Z0
+*NOTE-2019.05.23@01:53:30 - home all
+G28
+*NOTE-2019.05.23@01:53:47 - move menu
+*NOTE-2019.05.23@01:54:15 - ch incr 2 times
+L1 S2
+L1 S3
+*NOTE-2019.05.23@01:54:37 - z+/-
+G91
+G1 F500 Z0.50
+G90
+G91
+G1 F500 Z-0.50
+G90
+*NOTE-2019.05.23@01:55:48 - ch incr 2 times
+L1 S4
+L1 S0
+*NOTE-2019.05.23@01:57:18 - ch incr and z- 5 times (30mm, 10mm, 1mm, 0.5mm, 0.1mm) chr incr (30mm) z+
+G91
+G1 F500 Z-30.00
+G90
+L1 S1
+G91
+G1 F500 Z-10.00
+G90
+L1 S2
+G91
+G1 F500 Z-1.00
+G90
+L1 S3
+G91
+G1 F500 Z-0.50
+G90
+L1 S4
+G91
+G1 F500 Z-0.10
+G90
+L1 S0
+G91
+G1 F500 Z30.00
+G90
+*NOTE-2019.05.23@01:58:56 - about page
+M115
+M2134 FW:Vx.38.xx
+*NOTE-2019.05.23@01:59:35 - wifi page
+*NOTE-2019.05.23@02:00:05 - factory reset
+M502
+
+-----------------------------------------------
+Date: 23.05.2019 - 02:01:16
+End log file

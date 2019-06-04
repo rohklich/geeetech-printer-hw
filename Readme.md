@@ -1,0 +1,1 @@
+This is what I learned so far about my Geeetech A30 while trying to get marlin running on it.
