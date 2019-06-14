@@ -6,10 +6,8 @@ L3 -> L21 -> L21
 
 
 // TODO: whats send on PWR_DET low?
-// TODO: auto leveling
 // TODO: wifi  M2557  - configure WiFi through serial port 
 //       M2557 <ssid_name|password> sets RA: of L4
-// TODO: rollover after 65535sec, what if larger? elapsed time(seconds since print start)
 
 
 
@@ -26,12 +24,12 @@ PS:0 // print status 0=idle(also serial print) 1=printing 2=pause 3=print recove
 VL:0 // TODO: ???
 MT:0 // motor status 1=enabled, 0=disabled
 FT:0 // filament det status 0=no filament 1=filament present >2=disable filament detector(stock firmware sets it to 255)
-AL:0 // TODO: auto level?
+AL:0 // auto level 1=enabled, 0=disabled
 ST:255 // TODO: whats this? values also seen: 1; maybe "old" system_infor.sd_print_status?
 WF:0 // WiFi function enable 0=disable 1=enable WiFi menu 
 FN:[filename]  // selected file for SD print
 PG:0 // print progress in percent
-TM:0 // TODO: rollover after 65535sec, what if larger? elapsed time(seconds since print start)
+TM:0 // elapsed seconds since print start. smartto rolls over at 65535sec, but display correctly handles greater values greater
 LA:0 // current layer
 LC:0 // total layers
 
