@@ -26,20 +26,20 @@ RX on the board/LCD has to connect to TX on the USB2Ser, TX on the board/LCD goe
 
 
 In this first step I tried to find out all messages send from the LCD on button pushes, value changes etc.
-
+```
   +------+      +---------+      +-----+
   | COM1 |<---->| USB2Ser |<---->| LCD |
   +------+      +---------+      +-----+
-
+```
 
 
 I then connected the board via USB and connected the display-interface to another USB port via USB2Serial plug.
 The board is supplied with 5V via connector S1(see pictures or schematics)
-
+```
   +------+      +-------+      +---------------------+      +------+
   | COM1 |<---->| GTM32 |<---->| USB2Ser on LCD_CONN |<---->| COM2 |
   +------+      +-------+      +---------------------+      +------+
-
+```
 This made me able to see what is send in a more production-like situation.
 
 I tried to assemble an overview of what is sent on different events.
