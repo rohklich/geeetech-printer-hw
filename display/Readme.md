@@ -1,25 +1,25 @@
-Disclaimer:
-I only describe my findings here and cannot held responsible for damages you may do to your hardware!
+**Disclaimer:**
+I only describe my findings here and cannot be held responsible for damages you may do to your hardware!
 You may have a different hardware revision or another board which just looks similar.
 My Geeetech A30 came with GTM32 PRO VD board, the menu says hardware revision 3.5.
 There is the similar looking GTM32 PRO VB in the wild, so doublecheck! A continuity tester is your friend.
 
+---
 
 My Geeetech A30 came with a 3.2" touch TFT LCD (about page says Hardware rev. 3.5 yours may be differen)
 I think it is a flavour of this one:
 http://www.geeetech.com/wiki/index.php/3.2TFT_LCD
 with custom firmware preinstalled.
 
-
-
 The display communicates via serial connection with the board. It sends common Gcodes as well as custom Gcodes. The original smartto firmware on the board sends different messages to the display to update its status, send SD-filelist etc.
 
 The goal is to make marlin able to talk to the display via extensible-ui. So you can use marlin without changing the display or reprogram it with a new firmware.
 
+---
 
-To "intercept" communication between board and lcd i connected to the board and the lcd with a USB2Serial plug to send and receive commands via terminal program.
+To "intercept" communication between board and lcd I connected to the board and the lcd with a USB2Serial plug to send and receive commands via terminal program.(I use brays terminal: https://sites.google.com/site/terminalbpp/)
 
-MAKE SHURE THE USB2SER CONVERTER IS CONFIGURED/JUMPERED TO 3.3V !
+MAKE SHURE THE USB2SER CONVERTER IS CONFIGURED/JUMPERED TO **3.3V** !
 baudrate seems to be hardcoded to 115200
 If you can't connect try to interchange RX and TX.
 RX on the board/LCD has to connect to TX on the USB2Ser, TX on the board/LCD goes to RX on the USB2Ser.
